@@ -110,7 +110,7 @@ Finally, note that `deploy` can take a minute or two to update, so be mindful of
 The process is almost identical for deploying a React site to GitHub Pages. We’ll still update our `package.json`, install gh-pages, and add our new scripts. The difference between this and basic webpack hosting is in the `deploy` script. We need to configure GitHub Pages to deploy the contents of the folder that contains our bundled code, and in a React project that folder is called `build`, as opposed to `dist` in our basic webpack projects. Check out the code snippet below that shows how we’ve updated the value of the `deploy` script to point to the `build` folder. 
  
 <div class="filename">./package.json</div>
- 
+
 ```json
 {
  "scripts": {
