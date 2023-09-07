@@ -17,7 +17,7 @@ To read more about prohibited uses for gh-pages, visit the following documentati
 First, we'll add a `repository` key to our `package.json`. We're adding it under the `version` key but the order doesn't matter as long as it is in the top-most level of our package object, the same level as `name` and `version`. After we add that, let's set it equal to an object with a `url` key. Use the following code snippet as an example, replacing {REPONAME} with your repo and {USERNAME} with your GitHub username respectively.
  
 <div class="filename">./package.json</div>
- 
+
 ```json
 {
  "name": "project name",
@@ -35,7 +35,7 @@ Next we'll add two new commands to our `scripts` object:
 * `deploy` pushes the contents of that folder to a new commit on the `gh-pages` branch, creating that branch if it doesn't already exist.
  
 <div class="filename">./package.json</div>
- 
+
 ```json
 {
 ...
