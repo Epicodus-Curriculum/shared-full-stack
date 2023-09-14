@@ -69,7 +69,7 @@ At this point we can run the following command to deploy our site. Make sure to 
 $ npm run deploy
 ```
  
-This will build our project and then publish it to GitHub Pages. You may be curious where the `predeploy` script gets used if we aren’t using it ourselves. Well, gh-pages runs the `predeploy` script automatically before deploying the site to ensure there’s an up-to-date build of our project. We can look in our terminal to see exactly which scripts are executed and in what order. Our terminal should show us that the `predeploy` script is run, which itself calls the `build` script, all  before the `deploy` script executes. Check out the code snippet below that shows an example of the terminal output for deploying. Note that ‘PROJECTNAME’ will be the `name` of your project as listed in the `package.json` file. 
+This will build our project and then publish it to GitHub Pages. You may be curious where the `predeploy` script gets used if we aren’t using it ourselves. Well, gh-pages runs the `predeploy` script automatically before deploying the site to ensure there's an up-to-date build of our project. We can look in our terminal to see exactly which scripts are executed and in what order. Our terminal should show us that the `predeploy` script is run, which itself calls the `build` script, all  before the `deploy` script executes. Check out the code snippet below that shows an example of the terminal output for deploying. Note that ‘PROJECTNAME’ will be the `name` of your project as listed in the `package.json` file. 
  
 ```
 $ npm run deploy
@@ -95,7 +95,7 @@ After we’ve successfully deployed our site, it will be hosted at a URL like th
 https://{USERNAME}.github.io/{REPONAME}
 ```
  
-If we want to update our live site with some changes, we’ll need to `git checkout` to the branch that has the most up to date code, then run our deploy script. Typically we deploy from the `main` branch but it’s possible to deploy from any branch. Each time we deploy, another commit gets made on our gh-pages branch. The commit message will be "Updates" by default, if you want a custom commit message you can specify it by using the `-m` option.
+If we want to update our live site with some changes, we’ll need to `git checkout` to the branch that has the most up to date code, then run our deploy script. Typically we deploy from the `main` branch but it's possible to deploy from any branch. Each time we deploy, another commit gets made on our gh-pages branch. The commit message will be "Updates" by default, if you want a custom commit message you can specify it by using the `-m` option.
  
 ```
 $ npm run deploy -- -m "Deploy site with new colors"
@@ -129,7 +129,7 @@ Outside of that the steps are exactly the same. [Optionally, see this repo for a
  
 ### Configure a Publishing Source
  
-It’s possible to configure our GitHub Pages site to publish when changes are pushed to a specific branch, or we can write a GitHub Actions workflow to publish our site. So for instance we could set our `main` branch as the publishing source and have GitHub automatically deploy any time changes are pushed to the `main` branch. [See this page in the GitHub docs for how to set a custom publishing source.](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+It's possible to configure our GitHub Pages site to publish when changes are pushed to a specific branch, or we can write a GitHub Actions workflow to publish our site. So for instance we could set our `main` branch as the publishing source and have GitHub automatically deploy any time changes are pushed to the `main` branch. [See this page in the GitHub docs for how to set a custom publishing source.](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
  
 ### Enforce HTTPS
  
