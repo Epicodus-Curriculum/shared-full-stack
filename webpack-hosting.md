@@ -1,4 +1,4 @@
-In this lesson we'll learn how to host our webpack project on **GitHub Pages**, also referred to as **gh-pages**. GitHub Pages is free, and lets us host our HTML, CSS, and Javascript right from the repository. It's a great way to quickly host a web app, and since it's integrated into GitHub, it's a nice option for developers. You may have hosted some projects this way by creating a `gh-pages` branch in your project, and while we'll end up with the same result here, the process for setting it up is slightly different. We'll make some edits to our `package.json`, and run some new commands from our terminal. In this lesson we’ll also cover how to deploy a React app built with webpack for students in the React course. 
+In this lesson we'll learn how to host our webpack project on **GitHub Pages**, also referred to as **gh-pages**. GitHub Pages is free, and lets us host our HTML, CSS, and Javascript right from the repository. It's a great way to quickly host a web app, and since it's integrated into GitHub, it's a nice option for developers. You may have hosted some projects this way by creating a `gh-pages` branch in your project, and while we'll end up with the same result here, the process for setting it up is slightly different. We'll make some edits to our `package.json`, and run some new commands from our terminal. In this lesson we'll also cover how to deploy a React app built with webpack for students in the React course. 
  
 Before we start, one important note about GitHub Pages is that it is **not meant** to host sensitive information, like API keys. The GitHub docs explain more:
  
@@ -69,7 +69,7 @@ At this point we can run the following command to deploy our site. Make sure to 
 $ npm run deploy
 ```
  
-This will build our project and then publish it to GitHub Pages. You may be curious where the `predeploy` script gets used if we aren’t using it ourselves. Well, gh-pages runs the `predeploy` script automatically before deploying the site to ensure there's an up-to-date build of our project. We can look in our terminal to see exactly which scripts are executed and in what order. Our terminal should show us that the `predeploy` script is run, which itself calls the `build` script, all  before the `deploy` script executes. Check out the code snippet below that shows an example of the terminal output for deploying. Note that ‘PROJECTNAME’ will be the `name` of your project as listed in the `package.json` file. 
+This will build our project and then publish it to GitHub Pages. You may be curious where the `predeploy` script gets used if we aren't using it ourselves. Well, gh-pages runs the `predeploy` script automatically before deploying the site to ensure there's an up-to-date build of our project. We can look in our terminal to see exactly which scripts are executed and in what order. Our terminal should show us that the `predeploy` script is run, which itself calls the `build` script, all  before the `deploy` script executes. Check out the code snippet below that shows an example of the terminal output for deploying. Note that ‘PROJECTNAME' will be the `name` of your project as listed in the `package.json` file. 
  
 ```
 $ npm run deploy
@@ -89,13 +89,13 @@ Time: 2553ms
 > gh-pages -d dist
 ```
  
-After we’ve successfully deployed our site, it will be hosted at a URL like this, where `{USERNAME}` is your github username and `{REPONAME}` is the name of your repository : 
+After we've successfully deployed our site, it will be hosted at a URL like this, where `{USERNAME}` is your github username and `{REPONAME}` is the name of your repository : 
  
 ```
 https://{USERNAME}.github.io/{REPONAME}
 ```
  
-If we want to update our live site with some changes, we’ll need to `git checkout` to the branch that has the most up to date code, then run our deploy script. Typically we deploy from the `main` branch but it's possible to deploy from any branch. Each time we deploy, another commit gets made on our gh-pages branch. The commit message will be "Updates" by default, if you want a custom commit message you can specify it by using the `-m` option.
+If we want to update our live site with some changes, we'll need to `git checkout` to the branch that has the most up to date code, then run our deploy script. Typically we deploy from the `main` branch but it's possible to deploy from any branch. Each time we deploy, another commit gets made on our gh-pages branch. The commit message will be "Updates" by default, if you want a custom commit message you can specify it by using the `-m` option.
  
 ```
 $ npm run deploy -- -m "Deploy site with new colors"
@@ -107,7 +107,7 @@ Finally, note that `deploy` can take a minute or two to update, so be mindful of
 ## For React Projects
 ---
  
-The process is almost identical for deploying a React site to GitHub Pages. We’ll still update our `package.json`, install gh-pages, and add our new scripts. The difference between this and basic webpack hosting is in the `deploy` script. We need to configure GitHub Pages to deploy the contents of the folder that contains our bundled code, and in a React project that folder is called `build`, as opposed to `dist` in our basic webpack projects. Check out the code snippet below that shows how we’ve updated the value of the `deploy` script to point to the `build` folder. 
+The process is almost identical for deploying a React site to GitHub Pages. We'll still update our `package.json`, install gh-pages, and add our new scripts. The difference between this and basic webpack hosting is in the `deploy` script. We need to configure GitHub Pages to deploy the contents of the folder that contains our bundled code, and in a React project that folder is called `build`, as opposed to `dist` in our basic webpack projects. Check out the code snippet below that shows how we've updated the value of the `deploy` script to point to the `build` folder. 
  
 <div class="filename">./package.json</div>
 

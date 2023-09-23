@@ -70,7 +70,7 @@ reword 32ccc0b do something with html
 pick 6ad9b62 add styling to main page
 ```
 
-When we save and close that file, we’re immediately presented with a commit message file in the editor, allowing us to update the commit message we marked for rewording:
+When we save and close that file, we're immediately presented with a commit message file in the editor, allowing us to update the commit message we marked for rewording:
 
 ```shell
 do something with html
@@ -116,7 +116,7 @@ pick 1a940bb add welcome message to index.html
 pick 0e3e0bc add styling to main page
 ```
 
-After saving and closing this file, we’re presented with a commit message file. We can write the commit message for the new _combined_ commit in this file:
+After saving and closing this file, we're presented with a commit message file. We can write the commit message for the new _combined_ commit in this file:
 
 ```shell
 # This is a combination of 2 commits.
@@ -130,7 +130,7 @@ update readme
 
 ```
 
-We can update the first commit message to "create project readme" and simply delete the "update readme" line, since we’re eliminating the second commit from our project:
+We can update the first commit message to "create project readme" and simply delete the "update readme" line, since we're eliminating the second commit from our project:
 
 ```shell
 # This is a combination of 2 commits.
