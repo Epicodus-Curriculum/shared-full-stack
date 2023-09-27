@@ -7,34 +7,17 @@ The second reason is that you'll be ready to tackle the remaining pre-work for t
 For full-time students:
 
 * [Full-time C# and .NET](https://new.learnhowtoprogram.com/c-and-net)
-* [Full-time Ruby and Rails](https://new.learnhowtoprogram.com/ruby-and-rails)
 
 For part-time students:
 
 * [Part-time C# and.NET](https://new.learnhowtoprogram.com/c-and-net-part-time)
-* [Part-time Ruby and Rails](https://new.learnhowtoprogram.com/ruby-and-rails-part-time)
 
-## Software Installation by Course
----
-
-Find the course you are signed up for below and install the necessary software.
-
-### [C#/.NET](#c-net)
-
-If you are in a track that includes the C# and .NET course, install the packages in the following lessons.
+Install the packages in the following lessons.
 
 * [Installing C# and .NET](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net)
 * [Installing dotnet script](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-dotnet-script)
 * [Installing and Configuring MySQL](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql)
 
-### [Ruby/Rails](#ruby-rails)
-
-If you are in a track that includes the Ruby and Rails course, install the packages in the following lessons.
-
-* [Ruby Installation and Setup](https://new.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/ruby-installation-and-setup)
-* [Installing Ruby on Mac](https://new.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/installing-ruby-on-mac)
-* [Installing Ruby on Windows](https://new.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/installing-ruby-on-windows)
-* [Installing Postgres](https://new.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/installing-postgres)
 
 ## Installation Issues and Setup Assistance
 ---
