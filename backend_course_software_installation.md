@@ -4,13 +4,7 @@ We have students install software during the weekend before team week for a coup
 
 The second reason is that you'll be ready to tackle the remaining pre-work for the next course when it comes time to complete it. Students are required complete pre-work for the next course before the first day of the course. Most students complete the pre-work during the weekend before the course starts, but you can start as early as you like. Take a moment to follow the link below to look at your upcoming course, and notice all of the sections that are labeled "pre-work": 
 
-For full-time students:
-
 * [Full-time C# and .NET](/c-and-net)
-
-For part-time students:
-
-* [Part-time C# and.NET](/c-and-net-part-time)
 
 Install the packages in the following lessons.
 
