@@ -6,17 +6,17 @@ The second reason is that you'll be ready to tackle the remaining pre-work for t
 
 For full-time students:
 
-* [Full-time C# and .NET](https://new.learnhowtoprogram.com/c-and-net)
+* [Full-time C# and .NET](/c-and-net)
 
 For part-time students:
 
-* [Part-time C# and.NET](https://new.learnhowtoprogram.com/c-and-net-part-time)
+* [Part-time C# and.NET](/c-and-net-part-time)
 
 Install the packages in the following lessons.
 
-* [Installing C# and .NET](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net)
-* [Installing dotnet script](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-dotnet-script)
-* [Installing and Configuring MySQL](https://new.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql)
+* [Installing C# and .NET](/c-and-net/getting-started-with-c/installing-c-and-net)
+* [Installing dotnet script](/c-and-net/getting-started-with-c/installing-dotnet-script)
+* [Installing and Configuring MySQL](/c-and-net/getting-started-with-c/installing-and-configuring-mysql)
 
 
 ## Installation Issues and Setup Assistance

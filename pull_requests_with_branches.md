@@ -1,8 +1,8 @@
 In this lesson, we'll practice making pull requests with branches. This is a common workflow in the industry. In this workflow, a developer pulls down the latest code from the main branch and creates a new branch. When a feature is completed, the new branch is committed and pushed to GitHub. Then the developer makes a pull request so the code can be merged into the main branch via GitHub's UI.
 
-We've already learned one way to merge our code into the main branch in [Practicing the Git Workflow](https://new.learnhowtoprogram.com/c-and-net/team-week/team-week-objectives). While it's important to be fluent in this workflow, it doesn't allow for any oversight of the process. All of the merging happens locally.
+We've already learned one way to merge our code into the main branch in [Practicing the Git Workflow](/c-and-net/team-week/team-week-objectives). While it's important to be fluent in this workflow, it doesn't allow for any oversight of the process. All of the merging happens locally.
 
-In the case of group projects, the entire team should be able to comment on and merge pull requests. In order to do so, everyone must be a collaborator on the project. See the [Git with Collaborators Setup](https://new.learnhowtoprogram.com/c-and-net/team-week/git-with-collaborators-setup) lesson for instructions on adding collaborators.
+In the case of group projects, the entire team should be able to comment on and merge pull requests. In order to do so, everyone must be a collaborator on the project. See the [Git with Collaborators Setup](/c-and-net/team-week/git-with-collaborators-setup) lesson for instructions on adding collaborators.
 
 ## Pull Requests with Branches
 ---
