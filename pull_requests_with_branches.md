@@ -2,7 +2,7 @@ In this lesson, we'll practice making pull requests with branches. This is a com
 
 We've already learned one way to merge our code into the main branch in [Practicing the Git Workflow](/c-and-net/team-week-part-2/team-week-objectives). While it's important to be fluent in this workflow, it doesn't allow for any oversight of the process. All of the merging happens locally.
 
-In the case of group projects, the entire team should be able to comment on and merge pull requests. In order to do so, everyone must be a collaborator on the project. See the [Git with Collaborators Setup](/c-and-net/team-week-part-2/git-with-collaborators-setup) lesson for instructions on adding collaborators.
+In the case of group projects, the entire team should be able to comment on and merge pull requests. In order to do so, everyone must be a collaborator on the project. See the [Git with Collaborators Setup](/c-and-net/team-week/git-with-collaborators-setup) lesson for instructions on adding collaborators.
 
 ## Pull Requests with Branches
 ---
